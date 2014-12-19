@@ -1,0 +1,29 @@
+<openerp>
+    <data>
+
+
+    <template id="separator_style" name="Separator Style" inherit_id="website.layout">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/bp_snippet_separator_style/static/src/css/main.css" t-ignore="true"/>
+            <script type="text/javascript" src="/bp_snippet_separator_style/static/src/js/modernizr.custom.js"></script>
+        </xpath>
+    </template>
+
+    <template id="separator_snippet_options" inherit_id="website.snippet_options">
+        <xpath expr="//div" position="after">
+          <div data-snippet-option-id='separator-style'
+            data-selector="section">
+            <li class="dropdown-submenu" data-required="true">
+              <a tabindex="-1" href="#">Separator Style</a>
+              <ul class="dropdown-menu">
+                <li data-value="separator_option"><a>None</a></li>
+                <li data-value="ss-style-triangles separator_option"><a>Triangle</a></li>
+                <li data-value="ss-style-halfcircle separator_option"><a>Half Circle</a></li>
+              </ul>
+            </li>
+          </div>
+        </xpath>
+    </template>
+
+  </data>
+</openerp>
