@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Modal Popup extention",
+    'name': "Snippet Separator Style",
 
     'summary': """
     Provide different separator styles""",
