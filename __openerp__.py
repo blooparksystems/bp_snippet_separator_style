@@ -20,16 +20,11 @@
 ##############################################################################
 {
     'name': "Snippet Separator Style",
-
-    'summary': """
-    Provide different separator styles""",
-
-    'description': """
-    Provide different separator styles""",
-
+    'summary': """Provide different separator styles""",
+    'description': """Provide different separator styles""",
     'author': "bloopark systems GmbH & Co. KG",
     'website': "http://www.bloopark.de",
-
+    'license': 'AGPL-3',
     'category': 'Modal',
     'version': '1.0',
 
@@ -41,9 +36,4 @@
         'views/snippets.xml'
     ],
 
-    'demo': [
-    ],
-
-    'tests': [
-    ],
 }
